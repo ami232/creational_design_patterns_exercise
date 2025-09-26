@@ -30,7 +30,7 @@ root_dir
 └─ README.md
 ```
 
-## Quickstart
+## Setup
 
 ```bash
 # 1) Create a virtual environment (optional)
@@ -42,7 +42,7 @@ python -m venv .venv
 .venv\Scripts\activate
 
 # 2) Install test dependency
-pip install pytest
+pip install -r requirements.txt
 
 # 3) Testing
 # Run all tests
